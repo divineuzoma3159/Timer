@@ -9,8 +9,8 @@ body{
 #myLabel{
   color: var(--themain);
   position: absolute;
-  font-size: 50px;
-  left: 35rem;
+  font-size: 5em;
+  left: 8em;
   top: 13rem;
 }
 #myImage{
@@ -23,6 +23,16 @@ body{
   position: absolute;
   font-size: 50px;
   left: 14rem;
+  top: 15rem;
+}
+
+}
+@media(max-width:480px){
+  #myLabel{
+  color: var(--themain);
+  position: absolute;
+  font-size: 65px;
+  left: 11rem;
   top: 15rem;
 }
 }
