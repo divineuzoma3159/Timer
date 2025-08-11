@@ -28,23 +28,19 @@ body{
 
 }
 @media (max-width:480px){
-  body{
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
   #myLabel{
   color: var(--themain);
   position: absolute;
-  font-size: 30px;
-  left: 1rem;
+  font-size: 40px;
+  left: 2rem;
   top: 15rem;
 }
   #myImage{
   width: 100%;
-  height: auto;
+  height: 500px;
 }
 }
+
 
 
 
