@@ -1,0 +1,28 @@
+:root{
+  --themain : black;
+}
+body{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#myLabel{
+  color: var(--themain);
+  position: absolute;
+  font-size: 50px;
+  left: 35rem;
+  top: 13rem;
+}
+#myImage{
+  width: 100%;
+  height: 800px;
+}
+@media(max-width:1000px){
+  #myLabel{
+  color: var(--themain);
+  position: absolute;
+  font-size: 50px;
+  left: 14rem;
+  top: 15rem;
+}
+}
