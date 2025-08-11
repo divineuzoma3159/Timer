@@ -8,7 +8,7 @@ function dates(){
     let miniute = date.getMinutes()
     let second = date.getSeconds()
      hour = (hour % 12) || 12
-     let time = (hour <= 12) ? "pm" : "am"
+     let time = (hour >= 12) ? "pm" : "am"
     hour = times(hour)
     miniute = times(miniute)
     second = times(second)
@@ -33,4 +33,5 @@ let indes = 0
 setInterval(() => {
   indes = (indes + 1) % color.length;
   holder.style.color = color[indes]
+
 },2000)
