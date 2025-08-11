@@ -21,8 +21,8 @@ body{
   #myLabel{
   color: var(--themain);
   position: absolute;
- font-size: 40px;
-  left: 12rem;
+ font-size: 30px;
+  left: 10rem;
   top: 15rem;
 }
 
@@ -40,6 +40,7 @@ body{
   height: 785px;
 }
 }
+
 
 
 
