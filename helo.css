@@ -10,7 +10,7 @@ body{
   color: var(--themain);
   position: absolute;
   font-size: 5em;
-  left: 8em;
+  left: 5em;
   top: 13rem;
 }
 #myImage{
@@ -22,7 +22,7 @@ body{
   color: var(--themain);
   position: absolute;
  font-size: 30px;
-  left: 10rem;
+  left: 5rem;
   top: 15rem;
 }
 
@@ -40,6 +40,7 @@ body{
   height: 785px;
 }
 }
+
 
 
 
