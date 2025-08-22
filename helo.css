@@ -27,6 +27,16 @@ body{
 }
 
 }
+
+@media (max-width:825px) {
+  #myLabel{
+  color: var(--themain);
+  position: absolute;
+ font-size:4em;
+  left: 17rem;
+  top: 15rem;
+} 
+}
 @media (max-width:480px){
   #myLabel{
   color: var(--themain);
@@ -40,6 +50,7 @@ body{
   height: 785px;
 }
 }
+
 
 
 
